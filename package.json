@@ -1,0 +1,25 @@
+{
+  "name": "SysTable_backEnd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/nettoandrade/SysTable_backEnd.git",
+  "author": "nettoandrade <antonio_netu@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "pg": "^8.4.2",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.3.5",
+    "yup": "^0.29.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.12.1",
+    "nodemon": "^2.0.6",
+    "sequelize-cli": "^6.2.0"
+  }
+}
